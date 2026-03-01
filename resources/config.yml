@@ -1,0 +1,7 @@
+# NoEnchant Configuration
+# List of enchantments that are allowed to remain on items
+# Enchantment names should be in UPPERCASE
+Whitelist:
+  - "PROTECTION"
+  - "SILK_TOUCH"
+  - "EFFICIENCY"

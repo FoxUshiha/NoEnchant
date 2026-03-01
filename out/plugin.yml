@@ -1,0 +1,27 @@
+name: NoEnchant
+version: 1.0.0
+main: com.foxsrv.noenchant.NoEnchant
+api-version: 1.20
+author: FoxOficial2
+description: Removes non-whitelisted enchantments from items
+
+commands:
+  noenchant:
+    description: Main NoEnchant command
+    usage: /<command> <reload|enchantname> <true/false>
+    aliases: [ne]
+    permission: noenchant.use
+
+permissions:
+  noenchant.use:
+    description: Allows using the NoEnchant command
+    default: true
+  noenchant.reload:
+    description: Allows reloading the configuration
+    default: op
+  noenchant.modify:
+    description: Allows modifying the whitelist
+    default: op
+  noenchant.bypass:
+    description: Allows using enchanted items
+    default: op
